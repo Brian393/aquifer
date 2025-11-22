@@ -11,6 +11,17 @@ This R/Shiny application computes aquifer levels, land‑use history, and rainfa
 - Auto‑caches results for instant future access  
 - Supports county & GMD presets or arbitrary polygons  
 
+==============================
+
+## DEPLOYMENT
+
+--Download the data folder <a href="https://www.dropbox.com/scl/fi/5rhcmsp4897aotyj5ygzk/data.zip?rlkey=wgpsoyyefj6y0cvty1x1llmxd&st=gtfwweae&dl=0">here</a>.
+
+--Assemble data folder with app.R and R/ folder. View with R Studio or see the current state online:
+
+<a href="https://hidinginplainssight.org" target="_blank">https://hidinginplainssight.org</a>
+
+
 ## Calling the app from an external client  
 The app responds to HTTPS GET requests at:
 
@@ -30,20 +41,7 @@ https://flows.rivertoday.org/aquifer_plots/
 **WKT polygon**  
 ?wkt=POLYGON((...))
 
-A third‑party web app (OpenLayers, Vue, etc.) may embed results using an iframe:
-html
-<iframe
-  src="https://flows.rivertoday.org/aquifer_plots/?preset=COUNTY:14"
-  style="width:100%; height:900px; border:none;"
-></iframe>
-
-Or dynamically:
-js
-iframe.src =
-  "https://flows.rivertoday.org/aquifer_plots/?geojson=" +
-  encodeURIComponent(JSON.stringify(geojsonPolygon));
-
-==============================
+============================
 
 ## MODULE OVERVIEW (R/ folder)
 
