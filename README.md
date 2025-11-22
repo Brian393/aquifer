@@ -15,9 +15,13 @@ This R/Shiny application computes aquifer levels, land‑use history, and rainfa
 
 ## DEPLOYMENT
 
---Download the data folder <a href="https://www.dropbox.com/scl/fi/5rhcmsp4897aotyj5ygzk/data.zip?rlkey=wgpsoyyefj6y0cvty1x1llmxd&st=gtfwweae&dl=0">here</a>.
+--Download the data folder <a href="https://www.dropbox.com/scl/fi/5rhcmsp4897aotyj5ygzk/data.zip?rlkey=wgpsoyyefj6y0cvty1x1llmxd&st=gtfwweae&dl=0" target="_blank">here</a>.
 
---Assemble data folder with app.R and R/ folder. View with R Studio or see the current state online:
+--Unzip the data folder and put it together with app.R and R/ folder. 
+
+--View with R Studio, or place the entire folder in a shiny-server folder.
+
+--See the current state of the project online:
 
 <a href="https://hidinginplainssight.org" target="_blank">https://hidinginplainssight.org</a>
 
